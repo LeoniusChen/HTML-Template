@@ -1,0 +1,147 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+
+    line-height: 1.5em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box1{
+    background-color: antiquewhite;
+    color: royalblue;
+    
+    border: 5px blue solid;
+    border-top: 10px green dotted;
+    border-right: 5px red solid;
+    border-bottom: 1px firebrick double;
+    border-left: 8px blue dashed;
+
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+
+    margin-top: 200px;
+}
+
+.box1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+}
+
+.box2{
+    border: 5px dotted #cccccc;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.box2 h1{
+    text-align: center;
+}
+
+.list li{
+    list-style: square;
+    /* list-style-image: url(../img/check.png); */
+}
+
+button{
+    background-color: #444444;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover{
+    color: cyan;
+}
+
+a:visited{
+    color: red;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.list2 li:nth-child(even){
+    background-color: grey;
+}
+
+.list2 li:first-child{
+    background-color: red;
+}
+
+.list2 li:nth-child(3){
+    color: green;
+}
+
+.position-box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 50px;
+}
+
+.position-box h2{
+    position: absolute;
+    right: 30px;
+}
+
+#fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
